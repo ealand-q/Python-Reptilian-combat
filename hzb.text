@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <link rel="icon" href="./images/v2_qmyicon.jpg" />
+    <title>“华中杯”大学生数学建模挑战赛</title>
+    <meta name="description" content="为了激励学生学习数学的积极性，拓展数学及相关学科知识面，提高学生独立分析、建模、求解、应用、写作等综合能力，湖北省工业与应用数学学会作为主办，举办“华中杯”大学生数学建模挑战赛。“华中杯”大学生数学建模挑战赛系原华中地区大学生数学建模邀请赛，已连续举办十二届，2020年由于疫情原因，暂停一年。2021年更名为“华中杯”大学生数学建模挑战赛。">
+    <meta name="Keywords" content="华中杯，华中杯大学生数学建模挑战赛，数学建模，数学建模挑战赛，泰迪智能科技（武汉）有限公司，泰迪智能科技">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./lib/swiper/css/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="./style/index/index.css" />
+    <link rel="stylesheet" type="text/css" href="./style/public/header/nav.css" />
+    <script src="./lib/less/less.min.js"></script>
+</head>
+
+<body>
+
+    <!-- 头部区域 -->
+    <header>
+        <div class="hzb-header w">
+            <div class="hzb-header-logo">
+                <img src="./images/v2_qmyf0e.png" class="logo-img" />
+            </div>
+            <div id="hzb-header-nav" class="hzb-header-text">
+                
+            </div>
+            <div class="hzb-header-login"></div>
+        </div>
+    </header>
+
+    <!-- 轮播图 -->
+    <div class="hzb-swiper">
+        <div class="hzb-swiper-item w">
+            <div class="swiper-container" id="top-banner">
+                <div class="swiper-wrapper" id="swiper-box">
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination" id="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 华中杯参赛队伍 -->
+    <div class="hzb-troops w"></div>
+
+    <!-- 内容部分 -->
+    <div class="content">
+        <div class="w" style="display: flex;">
+            <div class="item fl" id="click">
+                <div class="item_title">
+                    <h3>大赛简介</h3>
+                </div>
+                <div class="item_n">
+                    <div class="item_p">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item fr">
+                <div class="item_title">
+                    <h3>最新通知</h3>
+                    <a href="./views/inform/inform.html?navigate=inform">更多 &gt;</a>
+                </div>
+                <div class="item_n">
+                    <ul id="inform">
+                        
+                    </ul>     
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="hzb-item w">
+        <div class="hzb-left-item-newsflash">
+            <div class="hzb-left-newsflash-news">
+                <div class="hzb-left-newsflash-news-hd">
+                    <h5 class="hzb-left-newsflash-news-hd-text">大赛简介</h5>
+                    <a href="./views/organization/brief.html" class="hzb-left-newsflash-news-hd-mode">更多<span
+                            class="glyphicon glyphicon-menu-right"></span></a>
+                </div>
+                <div class="hzb-left-newsflash-news-bd">
+                    <ul class="hzb-left-newsflash-news-bd-list">
+                        <li class="hzb-left-newsflash-news-bd-list-item">
+                            <span class="hzb-left-newsflash-news-bd-list-item-text">
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="hzb-right-item-newsflash">
+            <div class="hzh-right-newsflash-news">
+                <div class="hzh-right-newsflash-news-hd">
+                    <h5 class="hzh-right-newsflash-news-hd-text">最新通知</h5>
+                    <a href="./views/inform/inform.html" class="hzh-right-newsflash-news-hd-mode">更多<span
+                            class="glyphicon glyphicon-menu-right"></span></a>
+                </div>
+                <div class="hzh-right-newsflash-news-bd">
+                    
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- 合作单位 -->
+    <div class="hzb-cooperator w">
+        <div class="hzb-cooperator-text">合作单位</div>
+        <div class="hzb-cooperator-images">
+            <div class="hzb-cooperator-images-item">
+                <div class="swiper-container" id="swiper-footer">
+                    <div class="swiper-wrapper" id="swiper-wrapper-footer">
+                      <div class="swiper-slide cooperator-images-footer">slider1</div>
+                      <div class="swiper-slide cooperator-images-footer">slider2</div>
+                      <div class="swiper-slide cooperator-images-footer">slider3</div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="hzb-bottom">
+
+    </div>
+    <!-- 底部备案 -->
+    <div class="hzb-bottom-records">
+        <p class="hzb-bottom-records-text w">
+            ©2021 华中杯 备案号：
+            <span class="hzb-bottom-records-text-item">
+                <a style="text-decoration: none; " href="http://beian.miit.gov.cn/">鄂ICP备2021001283 </a>
+            </span> | 鄂公网安备 13011403590714号
+        </p>
+    </div>
+
+    <!-- 轮播图 -->
+    <script type="text/template" id="BannerList">
+        {{ each list }}
+        <div class="swiper-slide">
+            <img src="{{$value.cover}}" alt="">
+        </div>
+        {{ /each }}
+    </script>
+
+
+
+    <script src="./lib/jquery/jquery.min.js"></script>
+    <script src="./js/public/nav.js"></script>
+    <script src="./js/common/utils.js"></script>
+    <script src="./lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="./lib/template-web/template-web.js"></script>
+    <script src="./lib/swiper/js/swiper-bundle.min.js"></script>
+    <script src="./js/index/request.js"></script>
+    <script src="./js/index/index.js"></script>
+    
+</body>
+
+</html>
