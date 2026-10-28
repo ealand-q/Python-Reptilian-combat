@@ -20,3 +20,13 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+# Local credentials and generated data
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+douban.xlsx
+微博.xlsx
+热门微博.xlsx
